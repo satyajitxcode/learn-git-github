@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>DOM MANIPULATION</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    
+</head>
+
+<body>
+    <div class="flex h-screen items-center justify-center bg-slate-400">
+        <div id="container" class="bg-white rounded-xl overflow-hidden">
+          <div class="flex p-2 items-center gap-2" id="top-part">
+            <div>
+              <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/pfm1qotkkkgfrufqeggr"  class="w-6 rounded-full " alt="">
+      
+            </div>
+            <div class="font-semibold text-xs ">
+              fcbarcelona
+            </div>
+          </div>
+          <div id="new-photo">
+            <img src="https://i.pinimg.com/564x/c7/30/60/c730601381db9cff01d1dc459c2a9167.jpg" id="main-image" class="w-32" alt="">
+          </div>
+          <i id="heart-icon" class="ri-heart-3-fill text-white text-7xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-0 transition-transform duration-300 ease-in-out"></i>
+          <div id="bottom-part" class="px-1.5">
+            <i id="like-button" class="ri-heart-line"></i>
+            <i id="liked-button" class="ri-heart-fill hidden"></i> 
+          </div>
+        </div>
+        
+      </div>
+      
+</body>
+<script src="03_DOM.js"></script>
+
+</html>
